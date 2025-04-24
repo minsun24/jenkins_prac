@@ -39,3 +39,6 @@ RUN mv $(ls *.jar | grep -v plain) app.jar
 
 ## 컨테이너 내부에서는 7777 포트로 app.jar 가 실행 됨
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
+
+## 테스트
